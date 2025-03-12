@@ -4,6 +4,7 @@ import About from '../About/About'
 import Carousel from '../../components/carousel/MyCarousel'
 import MyCarousel from '../../components/carousel/MyCarousel'
 import ExplorePage from '../explore/ExplorePage'
+import Plan from '../plan/Plan'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <About/>
      {/* <MyCarousel/> */}
      <ExplorePage/>
+     <Plan/>
     </div>
   )
 }
