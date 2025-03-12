@@ -17,7 +17,7 @@ gap: 50px;
 }
 .aboutText h1 span{
     background: linear-gradient(90deg, #4899E1 0%, #CC1CE8 50%, #A344E6 100%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 
 
@@ -43,4 +43,15 @@ img{
    border: none;
    color: white;
   
+  }
+
+
+  @media (max-width:768px) {
+    .about{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0px 20%;
+       
+    }
+   
   }
